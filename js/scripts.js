@@ -13,6 +13,10 @@ function triangleTracker(length,width,height){
              alert(triangleMessages[3]);
       }
 
+      else if(length==width || width==height || height==length){
+             alert(triangleMessages[1]);  
+      }
+
       else{
             alert(triangleMessages[3]);
       }
