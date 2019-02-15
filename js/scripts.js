@@ -14,12 +14,15 @@ function triangleTracker(length,width,height){
       }
 
       else if(length==width || width==height || height==length){
-             alert(triangleMessages[1]);  
+             alert(triangleMessages[1]);
       }
+
+      else if(length!= width || width!= height || height!= length ){
+             alert(triangleMessages[2]); 
 
       else{
             alert(triangleMessages[3]);
       }
 
 }
-triangleTracker(0,2,2);
+triangleTracker(3,2,2);
