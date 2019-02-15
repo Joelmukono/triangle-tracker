@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <title>Triangle tracker</title>
-</head>
-<body>
-  <h1>Triangle Tracker</h1>
-  <input type="text" id="height1" placeholder="enter height" required></br>
-  <input type= "text" id="lenght1" placeholder="enter length" required></br>
-  <input type="text" id="width1" placeholder="enter width" required>
-  <input type="button" id="submit" value="submit" onclick='triangleTracker()'>
-  <script src="js/scripts.js"></script>
-<body>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Triangle tracker</title>
+  </head>
+  <body>
+    <h1>Triangle Tracker</h1>
+    <input type="number" id="height1" placeholder="enter height" required></br>
+
+    <input type= "text" id="length1" placeholder="enter length" required></br>
+
+    <input type="text" id="width1" placeholder="enter width" required>
+
+    <input type="button" id="submit" value="submit" onclick="triangleTracker()">
+
+    <div id="showResult"></div>
+
+    <script src="js/scripts.js"></script>
+  <body>
 </html>
