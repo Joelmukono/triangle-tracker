@@ -2,13 +2,9 @@
 
 
 function triangleTracker(length,width,height){
-      var height = getElementById('height1').value();
-      var width = getElementById('width1').value();
-      var length = getElementById('width1').value();
-
-      var height1 = parseInt(height);
-      var width1 = parseInt(width);
-      var length1 = parseInt(length);
+      var height = getElementById('height1');
+      var width = getElementById('width1');
+      var lenght = getElementById('lenght1');
 
       var triangleMessages=["Equilateral triangle","isosceles triangle","scalene triangle","not triangle"];
 
