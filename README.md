@@ -3,4 +3,6 @@
 
 ### Author: Joel Mukono
 
-   input
+* the specs are:
+
+      input
