@@ -3,6 +3,10 @@ function add(number1, number2){
 }
 
 function triangleTracker(length,width,height){
+      var heightCompare= add(height,width);
+      var lengthCompare = add(width,length);
+      var widthCompare = add(length,height);
+
       var triangleMessages=["Equilateral triangle","isosceles triangle","scalene triangle","not triangle"];
 
       if(length==width && width==height && height==length ){
@@ -18,11 +22,12 @@ function triangleTracker(length,width,height){
       }
 
       else if(length!= width || width!= height || height!= length ){
-             alert(triangleMessages[2]); 
+             alert(triangleMessages[2]);
+      }
 
       else{
             alert(triangleMessages[3]);
       }
 
 }
-triangleTracker(3,2,2);
+triangleTracker(3,1,2);
