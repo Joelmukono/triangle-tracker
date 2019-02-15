@@ -3,10 +3,10 @@ function add(number1, number2){
 }
 
 function triangleTracker(length,width,height){
-      var triangleMessages=['"Equilateral triangle","isosceles triangle","scalene triangle","not triangle"'];
+      var triangleMessages=["Equilateral triangle","isosceles triangle","scalene triangle","not triangle"];
 
       if(length==width && width==height && height==length ){
-             alert(triangleNames[0]);
+             alert(triangleMessages[0]);
            }
 
 }
