@@ -8,6 +8,9 @@ function triangleTracker(length,width,height){
       if(length==width && width==height && height==length ){
              alert(triangleMessages[0]);
            }
+      else{
+            alert(triangleMessages[3]);
+      }
 
 }
 triangleTracker(2,2,2);
