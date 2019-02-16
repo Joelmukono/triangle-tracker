@@ -3,20 +3,21 @@
 ## Author: Joel Mukono
 ## Setup instructions
 #### Follow the steps below to install and run this version of Triangle-Tracker on your local machine
-go to https://github.com/Joelmukono/triangle-tracker
+    
+    go to https://github.com/Joelmukono/triangle-tracker
  
- *fork repo
+    fork repo
  
- *make a new branch
+    make a new branch
  
- *add changes and make sure they reflect
+    add changes and make sure they reflect
  
- *commit changes made
+    commit changes made
  
- *push to branch
+    push to branch
  
- *create pull request
+    create pull request
 
 
-BDD
+## BDD
 
