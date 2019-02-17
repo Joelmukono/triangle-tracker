@@ -10,3 +10,7 @@ h3{
   margin: auto;
   width:200px;
 }
+
+input[type=number],input[type=reset],input[type=button] {
+  width:100%;
+}
