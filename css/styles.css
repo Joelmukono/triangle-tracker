@@ -27,9 +27,12 @@ input[type=reset],input[type=button]{
   width:100%;
   padding:10px;
   border:none;
+  border-width: 2px;
 
 }
 
 .result{
   font-family: 'Anton', sans-serif;
+  padding:30px;
+  width:100%;
 }

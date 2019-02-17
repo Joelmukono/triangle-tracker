@@ -6,21 +6,24 @@
     <title>Triangle tracker</title>
   </head>
   <body>
-    <h1>Triangle Tracker</h1>
-    <h3>Enter triangle dimensions</h3>
-    <div class="container">
-      <form id="form">
-          <input type="number" id="height1" placeholder="enter height" required></br>
+    <div class="background">
+      <h1>Triangle Tracker</h1>
+      <h3>Enter triangle dimensions</h3>
 
-          <input type= "number" id="length1" placeholder="enter length" required></br>
+      <div class="container">
+        <form id="form">
+            <input type="number" id="height1" placeholder="enter height" required></br>
 
-          <input type="number" id="width1" placeholder="enter width" required>
+            <input type= "number" id="length1" placeholder="enter length" required></br>
 
-          <input type="button" id="submit" value="Track triangle" onclick="triangleTracker()">
-          <input type="reset" value="Reset" onclick="resetForm()">
-      </form>
-    <div id="showResult" class="result"></div>
-  </div>
+            <input type="number" id="width1" placeholder="enter width" required>
+
+            <input type="button" id="submit" value="Track triangle" onclick="triangleTracker()">
+            <input type="reset" value="Reset" onclick="resetForm()">
+        </form>
+       <div id="showResult" class="result"></div>
+     </div>
+    </div>
 
     <script src="js/scripts.js"></script>
   <body>
