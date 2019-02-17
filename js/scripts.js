@@ -9,7 +9,7 @@ function triangleTracker(){
       var width2 = parseInt(width);
       var lenght2 = parseInt(lenght);
 
-      var triangleMessages=["The triangle is an Equilateral triangle","The isosceles triangle","scalene triangle","not triangle"];
+      var triangleMessages=["The triangle dimensions from an Equilateral triangle","The triangle dimensions from an isosceles triangle","The triangle dimensions from a scalene triangle","The triangle dimensions, don't from a triangle"];
 
       //check if sides are correct
       if(height2 + width2 < lenght2 || width2 + lenght2 < height2 || lenght2 + height2 < width2 ){
@@ -36,4 +36,8 @@ function triangleTracker(){
             document.getElementById('showResult').innerHTML = triangleMessages[3];
       }
 
+}
+
+function resetForm(){
+  document.getElementById(form).reset();
 }
