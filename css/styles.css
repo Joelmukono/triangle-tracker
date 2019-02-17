@@ -13,6 +13,7 @@ h3{
 
 input[type=number],input[type=reset],input[type=button] {
   width:100%;
+  font-family: 'Anton', sans-serif;
 }
 
 input[type=reset],input[type=button]{
