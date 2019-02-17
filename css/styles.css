@@ -14,3 +14,8 @@ h3{
 input[type=number],input[type=reset],input[type=button] {
   width:100%;
 }
+
+input[type=reset],input[type=button]{
+  background-color: #1e90ff;
+  color:white;
+}
