@@ -16,6 +16,7 @@ h3{
 input[type=number],input[type=reset],input[type=button] {
   width:100%;
   font-family: 'Anton', sans-serif;
+  padding:10px;
 }
 
 input[type=reset],input[type=button]{
