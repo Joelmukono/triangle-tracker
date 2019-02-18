@@ -27,21 +27,21 @@
 
 ## BDD
 #### here are the specs
-     Get input from user, numbers.
+     Get input from user, numbers 0-9.
      
-     parse user input into integers for use in html.
+     Parse user input into integers for use in html.
      
-     add array for triangle confirmation messages.
+     Add array for triangle confirmation messages.
      
-     add condition to check if dimensions can form a triangle.
+     Add condition to check if dimensions can form a triangle, height,length,width forms triangle.
      
-     condition to check for equitorial triangle.
+     Condition to check for equitorial triangle, height==length==width.
      
-     condition to check for isosceles triangle.
+     Condition to check for isosceles triangle, height==length or length==width or width== height.
      .
-     condition to check for scalene triangle.
+     Condition to check for scalene triangle, height,length and width are not equal.
      
-     condition for non triangle.
+     Condition for non triangle height length,width are zero or dont form triangle.
 
 
 
