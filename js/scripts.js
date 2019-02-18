@@ -9,7 +9,7 @@ function triangleTracker(){
       var width2 = parseInt(width);
       var lenght2 = parseInt(lenght);
 
-      var triangleMessages=["The triangle dimensions from an EQUILATERAL TRIANGLE","The triangle dimensions from an ISOSCELES TRIANGLE","The triangle dimensions from a SCALENE TRIANGLE","The triangle dimensions, don't from a triangle"];
+      var triangleMessages=["The triangle dimensions form an EQUILATERAL TRIANGLE","The triangle dimensions form an ISOSCELES TRIANGLE","The triangle dimensions form a SCALENE TRIANGLE","The triangle dimensions, don't from a triangle"];
 
       //check if sides are correct
       if(height2 + width2 < lenght2 || width2 + lenght2 < height2 || lenght2 + height2 < width2 ){
